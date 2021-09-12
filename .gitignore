@@ -2,7 +2,7 @@
 # Project Specific
 ######################
 /src/main/webapp/content/css/main.css
-/target/classes/static/**
+#/target/classes/static/**
 /src/test/javascript/coverage/
 
 ######################
@@ -75,7 +75,7 @@ out/
 # Maven
 ######################
 /log/
-/target/
+#/target/
 
 ######################
 # Gradle
@@ -86,7 +86,7 @@ out/
 ######################
 # Package Files
 ######################
-*.jar
+#*.jar
 *.war
 *.ear
 *.db

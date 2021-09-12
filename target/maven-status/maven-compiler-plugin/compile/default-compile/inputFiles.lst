@@ -1,0 +1,9 @@
+/Users/artem/mac/dev/elasticache-sqs/src/main/java/com/yablokovs/repository/UserRepository.java
+/Users/artem/mac/dev/elasticache-sqs/src/main/java/com/yablokovs/service/SqsSender.java
+/Users/artem/mac/dev/elasticache-sqs/src/main/java/com/yablokovs/config/RedisConfig.java
+/Users/artem/mac/dev/elasticache-sqs/src/main/java/com/yablokovs/controller/UserController.java
+/Users/artem/mac/dev/elasticache-sqs/src/main/java/com/yablokovs/model/User.java
+/Users/artem/mac/dev/elasticache-sqs/src/main/java/com/yablokovs/repository/UserRepositoryImpl.java
+/Users/artem/mac/dev/elasticache-sqs/src/main/java/com/yablokovs/service/SqsReceiver.java
+/Users/artem/mac/dev/elasticache-sqs/src/main/java/com/yablokovs/service/RedisService.java
+/Users/artem/mac/dev/elasticache-sqs/src/main/java/com/yablokovs/Application.java

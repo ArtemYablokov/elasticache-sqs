@@ -1,0 +1,9 @@
+com/yablokovs/service/SqsReceiver.class
+com/yablokovs/repository/UserRepositoryImpl.class
+com/yablokovs/model/User.class
+com/yablokovs/Application.class
+com/yablokovs/service/SqsSender.class
+com/yablokovs/config/RedisConfig.class
+com/yablokovs/controller/UserController.class
+com/yablokovs/service/RedisService.class
+com/yablokovs/repository/UserRepository.class
