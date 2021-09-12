@@ -11,7 +11,7 @@ public class SqsReceiver {
   @Autowired
   RedisService redisService;
 
-  @SqsListener("user-cache-details")
+  @SqsListener("elasticache-sqs-queue")
   public void userCacheListener(User user) {
     System.out.println("Received Message for user..." + user.getName());
 

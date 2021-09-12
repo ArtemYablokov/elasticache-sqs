@@ -20,17 +20,17 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public void save(User user) {
-        hashOperations.put("usercache", user.getId(), user);
+        hashOperations.put("elasticache-sqs", user.getId(), user);
     }
 
     @Override
     public Map<Integer, User> findAll() {
-        return hashOperations.entries("usercache");
+        return hashOperations.entries("elasticache-sqs");
     }
 
     @Override
     public User findById(Integer id) {
-        return (User) hashOperations.get("usercache", id);
+        return (User) hashOperations.get("elasticache-sqs", id);
     }
 
     @Override
@@ -40,6 +40,6 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public void delete(Integer id) {
-        hashOperations.delete("usercache", id);
+        hashOperations.delete("elasticache-sqs", id);
     }
 }

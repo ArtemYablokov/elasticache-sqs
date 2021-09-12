@@ -17,6 +17,6 @@ public class SqsSender {
 
     public void send(User user) {
         System.out.println("Sending user to SQS..." + user.getName());
-        queueMessagingTemplate.convertAndSend("user-cache-details", user);
+        queueMessagingTemplate.convertAndSend("elasticache-sqs-queue", user);
     }
 }
