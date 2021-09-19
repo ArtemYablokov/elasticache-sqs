@@ -16,11 +16,6 @@ public class SqsSender {
         this.queueMessagingTemplate = new QueueMessagingTemplate(amazonSQSAsync);
     }
 
-    public void sendUser(User user) {
-        System.out.println("Sending user to SQS..." + user.getName());
-        queueMessagingTemplate.convertAndSend("elasticache-sqs", user);
-    }
-
     public void sendShoppingCart(ShoppingCart shoppingCart) {
         System.out.println("Sending shoppingCart to SQS..." + shoppingCart.getName());
         System.out.println("Sending shoppingCart to SQS..." + shoppingCart.getProducts());
