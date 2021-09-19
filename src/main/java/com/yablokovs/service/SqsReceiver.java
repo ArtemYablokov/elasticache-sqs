@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class SqsReceiver {
 
 
-    @SqsListener("elasticache-sqs")
+    @SqsListener("sqs-queue")
     public void shoppingCartCacheListener(ShoppingCart shoppingCart) {
         System.out.println("Received Message for user..." + shoppingCart.getProducts());
         System.out.println("Received Message for user..." + shoppingCart.getName());

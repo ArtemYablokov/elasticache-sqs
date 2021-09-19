@@ -18,6 +18,6 @@ public class SqsSender {
     public void sendShoppingCart(ShoppingCart shoppingCart) {
         System.out.println("Sending shoppingCart to SQS..." + shoppingCart.getName());
         System.out.println("Sending shoppingCart to SQS..." + shoppingCart.getProducts());
-        queueMessagingTemplate.convertAndSend("elasticache-sqs", shoppingCart);
+        queueMessagingTemplate.convertAndSend("sqs-queue", shoppingCart);
     }
 }
