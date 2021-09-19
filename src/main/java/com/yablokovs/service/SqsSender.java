@@ -1,6 +1,7 @@
 package com.yablokovs.service;
 
 import com.amazonaws.services.sqs.AmazonSQSAsync;
+import com.yablokovs.model.ShoppingCart;
 import com.yablokovs.model.User;
 import org.springframework.cloud.aws.messaging.core.QueueMessagingTemplate;
 import org.springframework.stereotype.Service;
@@ -15,8 +16,14 @@ public class SqsSender {
         this.queueMessagingTemplate = new QueueMessagingTemplate(amazonSQSAsync);
     }
 
-    public void send(User user) {
+    public void sendUser(User user) {
         System.out.println("Sending user to SQS..." + user.getName());
-        queueMessagingTemplate.convertAndSend("elasticache-sqs-queue", user);
+        queueMessagingTemplate.convertAndSend("elasticache-sqs", user);
+    }
+
+    public void sendShoppingCart(ShoppingCart shoppingCart) {
+        System.out.println("Sending shoppingCart to SQS..." + shoppingCart.getName());
+        System.out.println("Sending shoppingCart to SQS..." + shoppingCart.getProducts());
+        queueMessagingTemplate.convertAndSend("elasticache-sqs", shoppingCart);
     }
 }

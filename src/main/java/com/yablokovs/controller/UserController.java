@@ -32,7 +32,7 @@ public class UserController {
   @PostMapping
   public boolean create(@RequestBody User user) {
     System.out.println("Creating User...");
-    sqsSender.send(user);
+    sqsSender.sendUser(user);
     return true;
   }
 }
