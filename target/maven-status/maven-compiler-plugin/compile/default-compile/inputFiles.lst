@@ -1,9 +1,11 @@
-/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/model/User.java
-/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/service/RedisService.java
-/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/repository/UserRepositoryImpl.java
-/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/repository/UserRepository.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/controller/ShoppingCartController.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/service/ShoppingCartService.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/repository/ShoppingCartRepository.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/controller/ProductController.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/repository/ProductRepository.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/model/ShoppingCart.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/Application.java
-/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/controller/UserController.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/service/SqsSender.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/service/ProductService.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/service/SqsReceiver.java
-/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/config/RedisConfig.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/model/Product.java

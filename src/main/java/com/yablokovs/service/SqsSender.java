@@ -2,7 +2,6 @@ package com.yablokovs.service;
 
 import com.amazonaws.services.sqs.AmazonSQSAsync;
 import com.yablokovs.model.ShoppingCart;
-import com.yablokovs.model.User;
 import org.springframework.cloud.aws.messaging.core.QueueMessagingTemplate;
 import org.springframework.stereotype.Service;
 
