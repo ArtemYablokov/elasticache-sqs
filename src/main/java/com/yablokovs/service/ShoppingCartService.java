@@ -1,5 +1,6 @@
 package com.yablokovs.service;
 
+import com.amazonaws.xray.spring.aop.XRayEnabled;
 import com.yablokovs.model.Product;
 import com.yablokovs.model.ShoppingCart;
 import com.yablokovs.repository.ShoppingCartRepository;
@@ -9,6 +10,7 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 @Service
+@XRayEnabled
 public class ShoppingCartService {
 
     private ShoppingCartRepository shoppingCartRepository;

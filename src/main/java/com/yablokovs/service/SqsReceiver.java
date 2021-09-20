@@ -1,10 +1,12 @@
 package com.yablokovs.service;
 
+import com.amazonaws.xray.spring.aop.XRayEnabled;
 import com.yablokovs.model.ShoppingCart;
 import org.springframework.cloud.aws.messaging.listener.annotation.SqsListener;
 import org.springframework.stereotype.Service;
 
 @Service
+@XRayEnabled
 public class SqsReceiver {
 
 
