@@ -1,11 +1,13 @@
-com/yablokovs/service/ProductService.class
-com/yablokovs/controller/ShoppingCartController.class
+com/yablokovs/config/WebConfig.class
 com/yablokovs/service/ShoppingCartService.class
 com/yablokovs/service/SqsReceiver.class
-com/yablokovs/Application.class
 com/yablokovs/service/SqsSender.class
 com/yablokovs/model/ShoppingCart.class
 com/yablokovs/controller/ProductController.class
 com/yablokovs/model/Product.class
+com/yablokovs/service/ProductService.class
+com/yablokovs/controller/ShoppingCartController.class
+com/yablokovs/aop/XRayInspector.class
+com/yablokovs/Application.class
 com/yablokovs/repository/ProductRepository.class
 com/yablokovs/repository/ShoppingCartRepository.class

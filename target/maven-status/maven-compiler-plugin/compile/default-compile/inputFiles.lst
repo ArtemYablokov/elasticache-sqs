@@ -3,9 +3,11 @@
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/repository/ShoppingCartRepository.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/controller/ProductController.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/repository/ProductRepository.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/service/ProductService.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/aop/XRayInspector.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/model/ShoppingCart.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/Application.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/service/SqsSender.java
-/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/service/ProductService.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/service/SqsReceiver.java
 /Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/model/Product.java
+/Users/artem/Desktop/elasticache-sqs/src/main/java/com/yablokovs/config/WebConfig.java

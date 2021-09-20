@@ -6,7 +6,6 @@ import org.springframework.cloud.aws.messaging.listener.annotation.SqsListener;
 import org.springframework.stereotype.Service;
 
 @Service
-@XRayEnabled
 public class SqsReceiver {
 
 

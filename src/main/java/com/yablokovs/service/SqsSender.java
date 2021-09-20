@@ -7,7 +7,6 @@ import org.springframework.cloud.aws.messaging.core.QueueMessagingTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
-@XRayEnabled
 public class SqsSender {
 
     private QueueMessagingTemplate queueMessagingTemplate;
