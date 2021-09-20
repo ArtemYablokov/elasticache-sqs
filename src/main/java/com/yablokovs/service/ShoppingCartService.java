@@ -15,12 +15,12 @@ public class ShoppingCartService {
 
     private ShoppingCartRepository shoppingCartRepository;
     private ProductService productService;
-    private SqsSender sqsSender;
+//    private SqsSender sqsSender;
 
-    public ShoppingCartService(ShoppingCartRepository shoppingCartRepository, ProductService productService, SqsSender sqsSender) {
+    public ShoppingCartService(ShoppingCartRepository shoppingCartRepository, ProductService productService/*, SqsSender sqsSender*/) {
         this.shoppingCartRepository = shoppingCartRepository;
         this.productService = productService;
-        this.sqsSender = sqsSender;
+//        this.sqsSender = sqsSender;
     }
 
     private int getRandomNumber() {
@@ -84,7 +84,7 @@ public class ShoppingCartService {
         Optional<ShoppingCart> byName = shoppingCartRepository.findByName(cartName);
 
         ShoppingCart shoppingCart = byName.orElseGet(() -> createShoppingCart(cartName));
-        sqsSender.sendShoppingCart(shoppingCart);
+//        sqsSender.sendShoppingCart(shoppingCart);
 
         return shoppingCart;
     }
